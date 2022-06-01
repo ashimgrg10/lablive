@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: url(back.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.navbar{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.logo{
+	width: 50px;
+	margin: 20px 0 10px;
+	cursor: pointer;
+	
+}
+.right-menu{
+	display: flex;
+	align-items: center;
+}
+.right-menu a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	margin: 0 40px ;
+	float: 100%left;
+	background-color: gray;
+}
+.search-box{
+	width: 500px;
+	height: 50px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	background-color: aliceblue;
+	border-radius: 3px;
+	box-shadow: 0px 7px 0px rgba(86, 86, 86, 0.5);
+}
+button{
+	width: 150px;
+	height: 100%;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 3px 0 3px;
+	background: linear-gradient(#3c8bf2, #0853ba);
+	border: 0;
+	outline: none;
+   
+}
+.search-box input{
+	width: 100;
+	outline: none;
+	border: 0;
+	background: transparent;
+	padding: 10px;
+}
+h2{
+	margin: 15px auto;
+	font-size: 40px;
+	font-weight: 100;
+	color: black;
+	text-align: center;
+	
+}
+h2:hover{
+	color: red;
+	transition: 1s;
+}
+.user-profile div{
+	width: 170px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.3);
+	color:black ;
+	padding: 15px;
+	backdrop-filter: blur(10px);
+}
+.user-profile div img{
+	width: 70px;
+	border-radius: 60%;
+}
+.user-profile{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 30px;
+}
+.user-profile div:nth-child(1){
+	transform: scale(0.7);
+	margin: 0 -30px;
+}
+.user-profile div:nth-child(2){
+	transform: scale(0.8);
+	margin: 0 -30px;
+}
+.user-profile div:nth-child(3){
+	transform: scale(0.9);
+	margin: 0 -30px;
+}
+.user-profile div:nth-child(4){
+	transform: scale(0.8);
+	margin: 0 -30px;
+}
+.user-profile div:nth-child(5){
+	transform: scale(0.7);
+	margin: 0 -30px;
+}
+.user-profile div h4 a{
+	color: black;
+}
+.user-profile div h4 a:hover{
+	color: red;
+	transition: 0.1s;
+}
+.lab{
+	float:  100% left;
+	font-size: 50px;
+	color: darkred;
+	
+
+}
+
+
+.error {
+	width: 100px;
+	height: 50px;
+	line-height: 5px;
+	color: black;
+	font-size: 20px;
+	float: left;
+
+
+}
+.join{
+	width: 70px;
+	height: 50px;
+	line-height: 5px;
+	
+	color: black;
+	font-size: 20px;
+	float: left;
+}
+.brand{
+		width: 70px;
+	height: 50px;
+	line-height: 5px;
+	
+	color: black;
+	font-size: 20px;
+	float: left;
+}
+.nav{
+		width: 70px;
+	height: 50px;
+	line-height: 5px;
+	
+	color: black;
+	font-size: 20px;
+	float: left;
+}
+
+.error:hover{
+	color: blue;
+}
+.nav:hover{
+	color: blue;
+}
+.brand:hover{
+	color: blue;
+}
+.join:hover{
+	color: blue;
+}
